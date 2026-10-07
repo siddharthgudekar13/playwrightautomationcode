@@ -1,0 +1,198 @@
+- generic [active] [ref=f2e1]:
+  - navigation [ref=f2e2]:
+    - list [ref=f2e3]:
+      - listitem [ref=f2e4]:
+        - link [ref=f2e5] [cursor=pointer]:
+          - /url: https://openweathermap.org
+      - generic [ref=f2e7]:
+        - textbox "Weather in your city" [ref=f2e9]
+        - list [ref=f2e10]:
+          - listitem [ref=f2e11]:
+            - link "Guide" [ref=f2e12] [cursor=pointer]:
+              - /url: https://openweathermap.org/guide
+          - listitem [ref=f2e13]:
+            - link "API" [ref=f2e14] [cursor=pointer]:
+              - /url: https://openweathermap.org/api
+          - listitem [ref=f2e15]:
+            - link "Dashboard" [ref=f2e16] [cursor=pointer]:
+              - /url: https://openweathermap.org/weather-dashboard
+          - listitem [ref=f2e17]:
+            - link "Marketplace" [ref=f2e18] [cursor=pointer]:
+              - /url: /marketplace
+          - listitem [ref=f2e19]:
+            - link "Pricing" [ref=f2e20] [cursor=pointer]:
+              - /url: https://openweathermap.org/price
+          - listitem [ref=f2e21]:
+            - link "Maps" [ref=f2e22] [cursor=pointer]:
+              - /url: https://openweathermap.org/weathermap
+          - listitem [ref=f2e23]:
+            - link "Our Initiatives" [ref=f2e24] [cursor=pointer]:
+              - /url: https://openweathermap.org/our-initiatives
+          - listitem [ref=f2e25]:
+            - link "Partners" [ref=f2e26] [cursor=pointer]:
+              - /url: https://openweathermap.org/examples
+          - listitem [ref=f2e27]:
+            - link "Blog" [ref=f2e28] [cursor=pointer]:
+              - /url: https://openweather.co.uk/blog/category/weather
+          - listitem [ref=f2e29]:
+            - link "For Business" [ref=f2e30] [cursor=pointer]:
+              - /url: https://openweather.co.uk/
+          - listitem [ref=f2e31]:
+            - link "Sign In" [ref=f2e32] [cursor=pointer]:
+              - /url: /users/sign_in
+          - listitem [ref=f2e33]:
+            - generic [ref=f2e34] [cursor=pointer]: Support
+  - generic [ref=f2e41]:
+    - heading "Create New Account" [level=3] [ref=f2e42]
+    - separator [ref=f2e43]
+    - generic [ref=f2e44]:
+      - textbox "Username" [ref=f2e46]
+      - textbox "Enter email" [ref=f2e48]
+      - generic [ref=f2e50]:
+        - textbox "Password" [ref=f2e52]
+        - textbox "Repeat Password" [ref=f2e54]
+      - separator [ref=f2e55]
+      - generic [ref=f2e56]:
+        - text: We will use information you provided for management and administration purposes, and for keeping you informed by mail, telephone, email and SMS of other products and services from us and our partners. You can proactively manage your preferences or opt-out of communications with us at any time using Privacy Centre. You have the right to access your data held by us or to request your data to be deleted. For full details please see the OpenWeather
+        - link "Privacy Policy" [ref=f2e57] [cursor=pointer]:
+          - /url: https://openweather.co.uk/privacy-policy
+        - text: .
+      - generic [ref=f2e58]:
+        - checkbox [ref=f2e59]
+        - text: I am 16 years old and over
+      - generic [ref=f2e60]:
+        - checkbox [ref=f2e61]
+        - text: I agree with
+        - link "Privacy Policy" [ref=f2e62] [cursor=pointer]:
+          - /url: https://openweather.co.uk/privacy-policy
+        - text: ","
+        - link "Terms and conditions of sale" [ref=f2e63] [cursor=pointer]:
+          - /url: https://openweather.co.uk/api/files/file/OpenWeather_T%26C_of_sale.pdf
+        - text: and
+        - link "Websites terms and conditions of use" [ref=f2e64] [cursor=pointer]:
+          - /url: https://openweather.co.uk/api/files/file/Openweather_website_terms_and_conditions_of_use.pdf
+      - separator [ref=f2e65]
+      - text: "I consent to receive communications from OpenWeather Group of Companies and their partners:"
+      - generic [ref=f2e66]:
+        - checkbox [ref=f2e67]
+        - text: System news (API usage alert, system update, temporary system shutdown, etc)
+      - generic [ref=f2e68]:
+        - checkbox [ref=f2e69]
+        - text: Product news (change to price, new product features, etc)
+      - generic [ref=f2e70]:
+        - checkbox [ref=f2e71]
+        - text: Corporate news (our life, the launch of a new service, etc)
+      - iframe [ref=f2e76]:
+        - generic [ref=f3e2]:
+          - generic [ref=f3e3]:
+            - checkbox "I'm not a robot" [ref=f3e7]
+            - generic [aria-hidden] [ref=f3e11]: I'm not a robot
+          - generic [ref=f3e12]: reCAPTCHA
+      - generic [ref=f2e77]:
+        - button "Create Account" [disabled]
+  - generic [ref=f2e79]:
+    - generic [ref=f2e80]:
+      - generic [ref=f2e81]:
+        - paragraph [ref=f2e82]: Product Collections
+        - list [ref=f2e84]:
+          - listitem [ref=f2e85]:
+            - link "Current and Forecast APIs" [ref=f2e86] [cursor=pointer]:
+              - /url: https://openweathermap.org/api#current
+          - listitem [ref=f2e87]:
+            - link "Historical Weather Data" [ref=f2e88] [cursor=pointer]:
+              - /url: https://openweathermap.org/api#history
+          - listitem [ref=f2e89]:
+            - link "Weather Maps" [ref=f2e90] [cursor=pointer]:
+              - /url: https://openweathermap.org/api#maps
+          - listitem [ref=f2e91]:
+            - link "Weather Dashboard" [ref=f2e92] [cursor=pointer]:
+              - /url: https://openweathermap.org/weather-dashboard
+          - listitem [ref=f2e93]:
+            - link "Widgets" [ref=f2e94] [cursor=pointer]:
+              - /url: https://openweathermap.org/widgets-constructor
+      - generic [ref=f2e95]:
+        - paragraph [ref=f2e96]: Subscription
+        - list [ref=f2e98]:
+          - listitem [ref=f2e99]:
+            - link "How to start" [ref=f2e100] [cursor=pointer]:
+              - /url: https://openweathermap.org/appid
+          - listitem [ref=f2e101]:
+            - link "Pricing" [ref=f2e102] [cursor=pointer]:
+              - /url: https://openweathermap.org/price
+          - listitem [ref=f2e103]:
+            - link "Subscribe for free" [ref=f2e104] [cursor=pointer]:
+              - /url: https://home.openweathermap.org/users/sign_up
+          - listitem [ref=f2e105]:
+            - link "FAQ" [ref=f2e106] [cursor=pointer]:
+              - /url: https://openweathermap.org/faq
+      - generic [ref=f2e107]:
+        - generic [ref=f2e108]: Company
+        - paragraph [ref=f2e110]: OpenWeather is a team of IT experts and data scientists that has been practising deep weather data science since 2014. For each point on the globe, OpenWeather provides historical, current and forecasted weather data via light-speed APIs. Headquarters in London, UK.
+    - generic [ref=f2e111]:
+      - generic [ref=f2e112]:
+        - paragraph [ref=f2e113]: Technologies
+        - list [ref=f2e115]:
+          - listitem [ref=f2e116]:
+            - link "Our technology" [ref=f2e117] [cursor=pointer]:
+              - /url: https://openweathermap.org/technology
+          - listitem [ref=f2e118]:
+            - link "Accuracy and quality of weather data" [ref=f2e119] [cursor=pointer]:
+              - /url: https://openweathermap.org/accuracy-and-quality
+          - listitem [ref=f2e120]:
+            - link "Connect your weather station" [ref=f2e121] [cursor=pointer]:
+              - /url: https://openweathermap.org/stations
+      - generic [ref=f2e122]:
+        - paragraph [ref=f2e123]: Terms & Conditions
+        - list [ref=f2e125]:
+          - listitem [ref=f2e126]:
+            - link "Terms and conditions of sale" [ref=f2e127] [cursor=pointer]:
+              - /url: https://openweather.co.uk/api/files/file/OpenWeather_T%26C_of_sale.pdf
+          - listitem [ref=f2e128]:
+            - link "Privacy Policy" [ref=f2e129] [cursor=pointer]:
+              - /url: https://openweather.co.uk/privacy-policy
+          - listitem [ref=f2e130]:
+            - link "Website terms and conditions" [ref=f2e131] [cursor=pointer]:
+              - /url: https://openweather.co.uk/api/files/file/Openweather_website_terms_and_conditions_of_use.pdf
+      - list [ref=f2e134]:
+        - listitem [ref=f2e135]:
+          - link "About us" [ref=f2e136] [cursor=pointer]:
+            - /url: https://openweathermap.org/about-us
+        - listitem [ref=f2e137]:
+          - link "Blog" [ref=f2e138] [cursor=pointer]:
+            - /url: https://openweather.co.uk/blog/category/weather
+        - listitem [ref=f2e139]:
+          - link "OpenWeather for Business" [ref=f2e140] [cursor=pointer]:
+            - /url: https://openweather.co.uk/
+        - listitem [ref=f2e141]:
+          - link "ChatBot assistant" [ref=f2e142] [cursor=pointer]:
+            - /url: https://openweathermap.org/chat
+        - listitem [ref=f2e143]:
+          - link "Ask a question" [ref=f2e144] [cursor=pointer]:
+            - /url: /questions
+    - generic [ref=f2e145]:
+      - generic [ref=f2e148]:
+        - paragraph [ref=f2e149]: Download OpenWeather app
+        - generic [ref=f2e150]:
+          - link [ref=f2e151] [cursor=pointer]:
+            - /url: https://apps.apple.com/gb/app/openweather/id1535923697
+            - img "Download on the AppStore" [ref=f2e152]
+          - link [ref=f2e153] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=uk.co.openweather
+            - img "Get it on Google Play" [ref=f2e154]
+      - img "'RMets logo" [ref=f2e157]
+    - generic [ref=f2e158]:
+      - generic [ref=f2e159]: Supplier of Achilles UVDB community © 2012 — 2026 OpenWeather ® All rights reserved
+      - generic [ref=f2e160]:
+        - link [ref=f2e161] [cursor=pointer]:
+          - /url: https://www.facebook.com/groups/270748973021342
+        - link [ref=f2e163] [cursor=pointer]:
+          - /url: https://twitter.com/OpenWeatherMap
+        - link [ref=f2e165] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/9816754
+        - link [ref=f2e167] [cursor=pointer]:
+          - /url: https://medium.com/@openweathermap
+        - link [ref=f2e169] [cursor=pointer]:
+          - /url: https://t.me/openweathermap
+        - link [ref=f2e171] [cursor=pointer]:
+          - /url: https://github.com/search?q=openweathermap&ref=cmdform
+  - generic [ref=f2e173] [cursor=pointer]: 

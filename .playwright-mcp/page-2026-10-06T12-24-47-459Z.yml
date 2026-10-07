@@ -1,0 +1,894 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "ow logo" [ref=e7]
+      - generic [ref=e8]:
+        - link "Login" [ref=e10] [cursor=pointer]:
+          - /url: https://home.openweathermap.org/users/sign_in
+        - button "Toggle menu" [ref=e12]
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Weather APIs for Every Use Case" [level=1] [ref=e20]
+        - paragraph [ref=e22]: OpenWeather provides global weather data APIs for current conditions, forecasts, historical archives, air quality, maps, and industry-specific use cases. Explore the product families below to find the API that fits your application, workflow, or business need.
+      - list [ref=e23]:
+        - listitem [ref=e24]:
+          - link "Get API key" [ref=e25] [cursor=pointer]:
+            - /url: /users/sign_in
+        - listitem [ref=e26]:
+          - link "API Docs" [ref=e27] [cursor=pointer]:
+            - /url: /api/one-call-4
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Featured API" [level=1] [ref=e34]
+            - heading "One Call API" [level=1] [ref=e35]
+          - generic:
+            - paragraph
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - paragraph [ref=e42]: One Call API
+                - generic [ref=e43]:
+                  - paragraph [ref=e46]: All-in-One Weather Data, One Simple Call
+                  - generic [ref=e48]:
+                    - paragraph [ref=e49]: Access real-time weather, hourly & daily forecasts, national alerts, and historical data — through a unified timeline-based API. Whether you’re building apps, analytics, AI workflows, dashboards, and enterprise weather solutions, One Call API is your all-purpose solution. The subscription provides access to One Call 4.0 and One Call 3.0
+                    - paragraph [ref=e50]:
+                      - link "One Call API 4.0" [ref=e51] [cursor=pointer]:
+                        - /url: /api/one-call-4-desciption
+                    - paragraph [ref=e52]:
+                      - link "One Call API 3.0 [deprecated]" [ref=e53] [cursor=pointer]:
+                        - /url: /api/one-call-3
+              - list [ref=e54]:
+                - listitem [ref=e55]:
+                  - generic [ref=e56]:
+                    - paragraph [ref=e58]: Current Conditions
+                    - paragraph [ref=e60]: Real-time weather conditions including temperature, humidity, wind, pressure, clouds, and more.
+                - listitem [ref=e61]:
+                  - generic [ref=e62]:
+                    - paragraph [ref=e64]: 1-Minute Forecast
+                    - paragraph [ref=e66]: Minute-by-minute precipitation forecast for the next 60 minutes.
+                - listitem [ref=e67]:
+                  - generic [ref=e68]:
+                    - paragraph [ref=e70]: 15-Minute Forecast Timeline
+                    - paragraph [ref=e72]: High-resolution 15-minute forecast timeline for the next 48 hours powered by the OWHL™ hyper-local model.
+                - listitem [ref=e73]:
+                  - generic [ref=e74]:
+                    - paragraph [ref=e76]: Hourly Weather Timeline
+                    - paragraph [ref=e78]: Explore 47+ years+ years of hourly historical weather data and up to 48 hours of forecast records through a unified weather timeline endpoint.
+                - listitem [ref=e79]:
+                  - generic [ref=e80]:
+                    - paragraph [ref=e82]: Daily Weather Timeline
+                    - paragraph [ref=e84]: Access long-range daily weather timelines combining 47+ years+ years of historical archive with forecasts up to 1.5 years ahead.
+                - listitem [ref=e85]:
+                  - generic [ref=e86]:
+                    - paragraph [ref=e88]: National Weather Alerts
+                    - paragraph [ref=e90]: Government-issued weather alerts and detailed metadata from official national meteorological agencies (e.g. NOAA, EUMETNET)
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - link [ref=e93] [cursor=pointer]:
+                    - /url: https://home.openweathermap.org/subscriptions/unauth_subscribe/onecall_40/base
+                    - text: Subscribe
+                    - img "icon" [ref=e95]
+                - listitem [ref=e96]:
+                  - link [ref=e97] [cursor=pointer]:
+                    - /url: /api/one-call-4
+                    - text: Explore API Doc
+                    - img "icon" [ref=e99]
+      - generic [ref=e102]:
+        - heading "Browse APIs by Category" [level=1] [ref=e104]
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - button "All" [ref=e112] [cursor=pointer]
+          - listitem [ref=e113]:
+            - button "Current & Forecast" [ref=e114] [cursor=pointer]
+          - listitem [ref=e115]:
+            - button "Specialized APIs" [ref=e116] [cursor=pointer]
+          - listitem [ref=e117]:
+            - button "Solar & Energy" [ref=e118] [cursor=pointer]
+          - listitem [ref=e119]:
+            - button "Historical" [ref=e120] [cursor=pointer]
+          - listitem [ref=e121]:
+            - button "Maps" [ref=e122] [cursor=pointer]
+          - listitem [ref=e123]:
+            - button "Environmental" [ref=e124] [cursor=pointer]
+          - listitem [ref=e125]:
+            - button "Tools & Integrations" [ref=e126] [cursor=pointer]
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - paragraph [ref=e135]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e136]
+              - generic [ref=e137]:
+                - heading "Current Weather Data" [level=3] [ref=e138]
+                - list [ref=e140]:
+                  - listitem [ref=e141]: Access current weather data for any location
+                  - listitem [ref=e142]: We collect and process weather data from different sources such as global and local weather models, satellites, radars and a vast network of weather stations
+                  - listitem [ref=e143]: JSON, XML, and HTML formats
+                  - listitem [ref=e144]: Included in both free and paid subscriptions
+              - list [ref=e145]:
+                - listitem [ref=e146]:
+                  - link "Subscribe" [ref=e147] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e148]:
+                  - link "API Docs" [ref=e149] [cursor=pointer]:
+                    - /url: /current
+          - listitem [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - paragraph [ref=e156]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e157]
+              - generic [ref=e158]:
+                - heading "Hourly Forecast 4 days" [level=3] [ref=e159]
+                - list [ref=e161]:
+                  - listitem [ref=e162]: Hourly forecast is available for 4 days
+                  - listitem [ref=e163]: Forecast weather data for 96 timestamps
+                  - listitem [ref=e164]: JSON and XML formats
+                  - listitem [ref=e165]: Included in the Developer, Professional and Expert subscription plans
+              - list [ref=e166]:
+                - listitem [ref=e167]:
+                  - link "Subscribe" [ref=e168] [cursor=pointer]:
+                    - /url: /full-price#current
+                - listitem [ref=e169]:
+                  - link "API Docs" [ref=e170] [cursor=pointer]:
+                    - /url: /api/hourly-forecast
+          - listitem [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - paragraph [ref=e177]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e178]
+              - generic [ref=e179]:
+                - heading "Daily Forecast 16 days" [level=3] [ref=e180]
+                - list [ref=e182]:
+                  - listitem [ref=e183]: 16 days forecast is available for any location on the globe
+                  - listitem [ref=e184]: 1-day step for 16 days
+                  - listitem [ref=e185]: JSON and XML formats
+                  - listitem [ref=e186]: Included in all paid subscription plans
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - link "Subscribe" [ref=e189] [cursor=pointer]:
+                    - /url: /full-price#current
+                - listitem [ref=e190]:
+                  - link "API Docs" [ref=e191] [cursor=pointer]:
+                    - /url: /forecast16
+          - listitem [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - paragraph [ref=e198]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e199]
+              - generic [ref=e200]:
+                - heading "Climatic Forecast 30 days" [level=3] [ref=e201]
+                - list [ref=e203]:
+                  - listitem [ref=e204]: Forecast weather data for 30 days
+                  - listitem [ref=e205]: JSON format
+                  - listitem [ref=e206]: Included in the Developer, Professional and Expert subscription plans
+              - list [ref=e207]:
+                - listitem [ref=e208]:
+                  - link "Subscribe" [ref=e209] [cursor=pointer]:
+                    - /url: /full-price#current
+                - listitem [ref=e210]:
+                  - link "API Docs" [ref=e211] [cursor=pointer]:
+                    - /url: /api/forecast30
+          - listitem [ref=e212]:
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - paragraph [ref=e218]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e219]
+              - generic [ref=e220]:
+                - heading "Bulk Current Data" [level=3] [ref=e221]
+                - list [ref=e223]:
+                  - listitem [ref=e224]: Current weather, a variety of weather forecasts and their 7-day archive via regularly updated files
+                  - listitem [ref=e225]: Weather bulks are grouped by types of weather data and location lists (global city lists or ZIP code lists of EU, UK, and US)
+                  - listitem [ref=e226]: Bulk files are available via CSV and JSON formats
+                  - listitem [ref=e227]: Included in the Professional and Expert subscription plans
+              - list [ref=e228]:
+                - listitem [ref=e229]:
+                  - link "Subscribe" [ref=e230] [cursor=pointer]:
+                    - /url: /full-price#current
+                - listitem [ref=e231]:
+                  - link "API Docs" [ref=e232] [cursor=pointer]:
+                    - /url: /bulk
+          - listitem [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - paragraph [ref=e239]: Current & Forecast
+                - img "thunderstorm with rain icon" [ref=e240]
+              - generic [ref=e241]:
+                - heading "5 Day / 3 Hour Forecast" [level=3] [ref=e242]
+                - list [ref=e244]:
+                  - listitem [ref=e245]: 5 day forecast for any location on the globe
+                  - listitem [ref=e246]: 5 day forecast with a 3-hour step
+                  - listitem [ref=e247]: JSON and XML formats
+                  - listitem [ref=e248]: Included in both free and paid subscriptions
+              - list [ref=e249]:
+                - listitem [ref=e250]:
+                  - link "Subscribe" [ref=e251] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e252]:
+                  - link "API Docs" [ref=e253] [cursor=pointer]:
+                    - /url: /forecast5
+          - listitem [ref=e254]:
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - paragraph [ref=e260]: Specialized APIs
+                - img "thunderstorm with rain icon" [ref=e261]
+              - generic [ref=e262]:
+                - heading "Road Risk API" [level=3] [ref=e263]
+                - list [ref=e265]:
+                  - listitem [ref=e266]: Specify your route and get weather data and national alerts for the point of destination and along the route
+                  - listitem [ref=e267]: Current, forecast for 5 days and historical weather data for 1 year for your route
+                  - listitem [ref=e268]: Weather data are available for any point on the globe
+                  - listitem [ref=e269]:
+                    - text: To receive information on price and get a quote, please
+                    - link "contact us" [ref=e270] [cursor=pointer]:
+                      - /url: mailto:info@openweathermap.org
+              - list [ref=e271]:
+                - listitem [ref=e272]:
+                  - link "Get a quote" [ref=e273] [cursor=pointer]:
+                    - /url: info@openweathermap.org
+                - listitem [ref=e274]:
+                  - link "API Docs" [ref=e275] [cursor=pointer]:
+                    - /url: /api/road-risk
+          - listitem [ref=e276]:
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - paragraph [ref=e282]: Solar & Energy
+                - img "sun icon" [ref=e283]
+              - generic [ref=e284]:
+                - heading "Solar Irradiance API" [level=3] [ref=e285]
+                - list [ref=e287]:
+                  - listitem [ref=e288]: Get the solar data by particular location and calculate energy generation!
+                  - listitem [ref=e289]:
+                    - link "GHI" [ref=e290] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DNI" [ref=e291] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DHI" [ref=e292] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: indices for clear sky and cloudy sky models
+                  - listitem [ref=e293]: Current data and forecast for 15 days ahead solar irradiation data
+                  - listitem [ref=e294]: 47+ years of historical data (from January 1, 1979)
+                  - listitem [ref=e295]: Daily aggregation with 1-hour and 15-minutes step detalization for specified day
+                  - listitem [ref=e296]: Available worldwide
+              - list [ref=e297]:
+                - listitem [ref=e298]:
+                  - link "Get" [ref=e299] [cursor=pointer]:
+                    - /url: /price#solar_energy
+                - listitem [ref=e300]:
+                  - link "API Docs" [ref=e301] [cursor=pointer]:
+                    - /url: /api/solar-irradiance
+          - listitem [ref=e302]:
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - paragraph [ref=e308]: Solar & Energy
+                - img "sun icon" [ref=e309]
+              - generic [ref=e310]:
+                - heading "Solar Irradiance History Bulk" [level=3] [ref=e311]
+                - list [ref=e313]:
+                  - listitem [ref=e314]: Solar Irradiance History Bulk provides historical weather data for any location for more than 47+ years back (from January 1, 1979)
+                  - listitem [ref=e315]:
+                    - link "GHI" [ref=e316] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DNI" [ref=e317] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DHI" [ref=e318] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: indices for clear sky and cloudy sky models
+                  - listitem [ref=e319]: Data is available in 15-minutes and 1-hour steps
+                  - listitem [ref=e320]: CSV and JSON formats
+                  - listitem [ref=e321]: Available worldwide
+                  - listitem [ref=e322]:
+                    - text: Available through our
+                    - link "Marketplace" [ref=e323] [cursor=pointer]:
+                      - /url: https://home.openweathermap.org/marketplace
+              - list [ref=e324]:
+                - listitem [ref=e325]:
+                  - link "Get" [ref=e326] [cursor=pointer]:
+                    - /url: /price#solar_energy
+                - listitem [ref=e327]:
+                  - link "API Docs" [ref=e328] [cursor=pointer]:
+                    - /url: /api/solar-irradiance-history-bulks
+          - listitem [ref=e329]:
+            - generic [ref=e330]:
+              - generic [ref=e331]:
+                - paragraph [ref=e335]: Solar & Energy
+                - img "sun icon" [ref=e336]
+              - generic [ref=e337]:
+                - heading "Solar Irradiance History Forecast Bulk" [level=3] [ref=e338]
+                - list [ref=e340]:
+                  - listitem [ref=e341]: Solar Irradiance History Bulk provides historical weather data for any location for more than 47+ years back (from January 1, 1979)
+                  - listitem [ref=e342]:
+                    - link "GHI" [ref=e343] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DNI" [ref=e344] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: ","
+                    - link "DHI" [ref=e345] [cursor=pointer]:
+                      - /url: /api/solar-irradiance
+                    - text: indices for clear sky and cloudy sky models
+                  - listitem [ref=e346]: Data is available in 15-minutes and 1-hour steps
+                  - listitem [ref=e347]: CSV and JSON formats
+                  - listitem [ref=e348]: Available worldwide
+                  - listitem [ref=e349]:
+                    - text: Available through our
+                    - link "Marketplace" [ref=e350] [cursor=pointer]:
+                      - /url: https://home.openweathermap.org/marketplace
+              - list [ref=e351]:
+                - listitem [ref=e352]:
+                  - link "Get" [ref=e353] [cursor=pointer]:
+                    - /url: /price#solar_energy
+                - listitem [ref=e354]:
+                  - link "API Docs" [ref=e355] [cursor=pointer]:
+                    - /url: /api/solar-irradiance-history-forecast-bulks
+          - listitem [ref=e356]:
+            - generic [ref=e357]:
+              - generic [ref=e358]:
+                - paragraph [ref=e362]: Solar & Energy
+                - img "sun icon" [ref=e363]
+              - generic [ref=e364]:
+                - heading "Solar Panel Energy Prediction" [level=3] [ref=e365]
+                - generic [ref=e366]:
+                  - paragraph [ref=e367]: Get the particular solar panel power output, based on the panel’s technical characteristics!
+                  - list [ref=e368]:
+                    - listitem [ref=e369]: Create unlimited number of solar panels for particular location with the desired specifications
+                    - listitem [ref=e370]: Current and forecast for 15 days ahead solar panel power output data
+                    - listitem [ref=e371]: 47+ years of historical data (from January 1, 1979)
+                    - listitem [ref=e372]: Daily aggregation with 1-hour and 15-minutes step detalization for specified day
+                    - listitem [ref=e373]: Available worldwide
+              - list [ref=e374]:
+                - listitem [ref=e375]:
+                  - link "Get" [ref=e376] [cursor=pointer]:
+                    - /url: /price#solar_energy
+                - listitem [ref=e377]:
+                  - link "API Docs" [ref=e378] [cursor=pointer]:
+                    - /url: /api/solar-panels-and-energy-prediction-2
+          - listitem [ref=e379]:
+            - generic [ref=e380]:
+              - generic [ref=e381]:
+                - paragraph [ref=e385]: Historical
+                - img "icon clock" [ref=e386]
+              - generic [ref=e387]:
+                - heading "Weather History API" [level=3] [ref=e388]
+                - list [ref=e390]:
+                  - listitem [ref=e391]: Through our API we provide historical weather data for any location on the globe
+                  - listitem [ref=e392]: Weather data have 1-hour step
+                  - listitem [ref=e393]: Weather History API is available in Professional and Expert subscription plans
+                  - listitem [ref=e394]: JSON format
+              - list [ref=e395]:
+                - listitem [ref=e396]:
+                  - link "Subscribe" [ref=e397] [cursor=pointer]:
+                    - /url: /price#current
+                - listitem [ref=e398]:
+                  - link "API Docs" [ref=e399] [cursor=pointer]:
+                    - /url: /history
+          - listitem [ref=e400]:
+            - generic [ref=e401]:
+              - generic [ref=e402]:
+                - paragraph [ref=e406]: Historical
+                - img "icon clock" [ref=e407]
+              - generic [ref=e408]:
+                - heading "History Bulk" [level=3] [ref=e409]
+                - list [ref=e411]:
+                  - listitem [ref=e412]:
+                    - text: History Bulk provides weather data for
+                    - strong [ref=e414]: any
+                    - text: location for 47+ years back (from January 01, 1979).
+                  - listitem [ref=e415]:
+                    - text: Available through our
+                    - link "Marketplace" [ref=e416] [cursor=pointer]:
+                      - /url: https://home.openweathermap.org/marketplace
+                  - listitem [ref=e417]: CSV and JSON formats
+              - list [ref=e418]:
+                - listitem [ref=e419]:
+                  - link "Get" [ref=e420] [cursor=pointer]:
+                    - /url: https://home.openweathermap.org/history_bulks/new
+                - listitem [ref=e421]:
+                  - link "API Docs" [ref=e422] [cursor=pointer]:
+                    - /url: /history-bulk
+          - listitem [ref=e423]:
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - paragraph [ref=e429]: Historical
+                - img "icon clock" [ref=e430]
+              - generic [ref=e431]:
+                - heading "History Forecast Bulk" [level=3] [ref=e432]
+                - list [ref=e434]:
+                  - listitem [ref=e435]: Historical archive of 16-days forecast weather data
+                  - listitem [ref=e436]: Historical forecast data is available from October 7, 2017
+                  - listitem [ref=e437]: CSV and JSON formats
+                  - listitem [ref=e438]:
+                    - text: You can purchase the product from our
+                    - link "Marketplace" [ref=e439] [cursor=pointer]:
+                      - /url: https://home.openweathermap.org/marketplace
+              - list [ref=e440]:
+                - listitem [ref=e441]:
+                  - link "Get" [ref=e442] [cursor=pointer]:
+                    - /url: https://home.openweathermap.org/history_forecast_bulks/new
+                - listitem [ref=e443]:
+                  - link "API Docs" [ref=e444] [cursor=pointer]:
+                    - /url: /api/history-forecast-bulk
+          - listitem [ref=e445]:
+            - generic [ref=e446]:
+              - generic [ref=e447]:
+                - paragraph [ref=e451]: Historical
+                - img "icon clock" [ref=e452]
+              - generic [ref=e453]:
+                - heading "Statistical Weather API" [level=3] [ref=e454]
+                - list [ref=e456]:
+                  - listitem [ref=e457]: Statistical data on main weather parameters for any day and month of the year
+                  - listitem [ref=e458]:
+                    - text: The statistics are calculated based on our
+                    - link "Historical weather data" [ref=e459] [cursor=pointer]:
+                      - /url: /history
+                  - listitem [ref=e460]: JSON format
+                  - listitem [ref=e461]: The weather data updated every hour
+                  - listitem [ref=e462]: Statistical Weather Data API is available in Expert subscription plan
+              - list [ref=e463]:
+                - listitem [ref=e464]:
+                  - link "Subscribe" [ref=e465] [cursor=pointer]:
+                    - /url: /price#current
+                - listitem [ref=e466]:
+                  - link "API Docs" [ref=e467] [cursor=pointer]:
+                    - /url: /api/statistics-api
+          - listitem [ref=e468]:
+            - generic [ref=e469]:
+              - generic [ref=e470]:
+                - paragraph [ref=e474]: Historical
+                - img "icon clock" [ref=e475]
+              - generic [ref=e476]:
+                - heading "Accumulated Parameters" [level=3] [ref=e477]
+                - list [ref=e479]:
+                  - listitem [ref=e480]: Accumulated temperature and precipitation data
+                  - listitem [ref=e481]: Accumulated Parameters are available in Professional and Expert subscription plans
+                  - listitem [ref=e482]: JSON format
+                  - listitem [ref=e483]:
+                    - text: More opportunities for agriculture in our
+                    - link "Agricultural API" [ref=e484] [cursor=pointer]:
+                      - /url: https://agromonitoring.com/api/agro-api
+              - list [ref=e485]:
+                - listitem [ref=e486]:
+                  - link "Subscribe" [ref=e487] [cursor=pointer]:
+                    - /url: /price#current
+                - listitem [ref=e488]:
+                  - link "API Docs" [ref=e489] [cursor=pointer]:
+                    - /url: /api/accumulated-parameters
+          - listitem [ref=e490]:
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - paragraph [ref=e496]: Maps
+                - img "map icon" [ref=e497]
+              - generic [ref=e498]:
+                - heading "Weather Maps 2.0 3-hour step" [level=3] [ref=e499]
+                - list [ref=e501]:
+                  - listitem [ref=e502]: Forecast, Historical, Current weather maps with 3-hour step
+                  - listitem [ref=e503]: 15 weather map layers
+                  - listitem [ref=e504]: The maps can be used as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+                  - listitem [ref=e505]: Included in Developer, Professional and Expert subscription plans
+              - list [ref=e506]:
+                - listitem [ref=e507]:
+                  - link "Subscribe" [ref=e508] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e509]:
+                  - link "API Docs" [ref=e510] [cursor=pointer]:
+                    - /url: /api/weather-map-2
+          - listitem [ref=e511]:
+            - generic [ref=e512]:
+              - generic [ref=e513]:
+                - paragraph [ref=e517]: Maps
+                - img "map icon" [ref=e518]
+              - generic [ref=e519]:
+                - heading "Weather Maps 2.0 1-hour step" [level=3] [ref=e520]
+                - list [ref=e522]:
+                  - listitem [ref=e523]: Forecast, Historical, Current weather maps with 1-hour step
+                  - listitem [ref=e524]: 14 weather map layers
+                  - listitem [ref=e525]: The maps can be used as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+              - list [ref=e526]:
+                - listitem [ref=e527]:
+                  - link "Get a quote" [ref=e528] [cursor=pointer]:
+                    - /url: info@openweathermap.org
+                - listitem [ref=e529]:
+                  - link "API Docs" [ref=e530] [cursor=pointer]:
+                    - /url: /api/weather-map-1h
+          - listitem [ref=e531]:
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - paragraph [ref=e537]: Maps
+                - img "map icon" [ref=e538]
+              - generic [ref=e539]:
+                - heading "Weather Maps 1.0" [level=3] [ref=e540]
+                - list [ref=e542]:
+                  - listitem [ref=e543]: Weather maps include precipitation, clouds, pressure, temperature, wind, and more
+                  - listitem [ref=e544]: Integrate our weather maps to your mobile applications and websites
+                  - listitem [ref=e545]: Use as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+                  - listitem [ref=e546]: Included in both free and paid subscriptions
+              - list [ref=e547]:
+                - listitem [ref=e548]:
+                  - link "Subscribe" [ref=e549] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e550]:
+                  - link "API Docs" [ref=e551] [cursor=pointer]:
+                    - /url: /api/weathermaps
+          - listitem [ref=e552]:
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - paragraph [ref=e558]: Maps
+                - img "map icon" [ref=e559]
+              - generic [ref=e560]:
+                - heading "Global Precipitation Maps Historical data" [level=3] [ref=e561]
+                - list [ref=e563]:
+                  - listitem [ref=e564]: Current and historical weather maps for the previous 2 days
+                  - listitem [ref=e565]: Historical precipitation data with 10-minutes step
+                  - listitem [ref=e566]: Resolution higher than 1 km
+                  - listitem [ref=e567]: Use as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+                  - listitem [ref=e568]: Included in Professional and Expert subscription plans
+              - list [ref=e569]:
+                - listitem [ref=e570]:
+                  - link "Subscribe" [ref=e571] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e572]:
+                  - link "API Docs" [ref=e573] [cursor=pointer]:
+                    - /url: /api/global-precipitation-map
+          - listitem [ref=e574]:
+            - generic [ref=e575]:
+              - generic [ref=e576]:
+                - paragraph [ref=e580]: Maps
+                - img "map icon" [ref=e581]
+              - generic [ref=e582]:
+                - heading "Global Precipitation Maps Historical & Forecast data" [level=3] [ref=e583]
+                - list [ref=e585]:
+                  - listitem [ref=e586]: Current, forecast and historical precipitation maps
+                  - listitem [ref=e587]: Forecast is available for the next 6 hours for the US territory and for the next 2 hours for other global areas
+                  - listitem [ref=e588]: The historical weather map for the previous 2 days
+                  - listitem [ref=e589]: Data update period is every 10 minutes
+                  - listitem [ref=e590]: Resolution higher than 1 km
+                  - listitem [ref=e591]: Use as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+              - list [ref=e592]:
+                - listitem [ref=e593]:
+                  - link "Get a quote" [ref=e594] [cursor=pointer]:
+                    - /url: info@openweathermap.org
+                - listitem [ref=e595]:
+                  - link "API Docs" [ref=e596] [cursor=pointer]:
+                    - /url: /api/global-precipitation-map-forecast
+          - listitem [ref=e597]:
+            - generic [ref=e598]:
+              - generic [ref=e599]:
+                - paragraph [ref=e603]: Maps
+                - img "map icon" [ref=e604]
+              - generic [ref=e605]:
+                - heading "Relief Maps" [level=3] [ref=e606]
+                - list [ref=e608]:
+                  - listitem [ref=e609]: The combination of a layer tint (colored raster) and a hillshade
+                  - listitem [ref=e610]: Customizable color palette
+                  - listitem [ref=e611]: Use as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+                  - listitem [ref=e612]: Included in Developer, Professional and Expert subscription plans
+              - list [ref=e613]:
+                - listitem [ref=e614]:
+                  - link "Subscribe" [ref=e615] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e616]:
+                  - link "API Docs" [ref=e617] [cursor=pointer]:
+                    - /url: /api/relief
+          - listitem [ref=e618]:
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - paragraph [ref=e624]: Environmental
+                - img "thunderstorm with rain icon" [ref=e625]
+              - generic [ref=e626]:
+                - heading "Air Pollution API" [level=3] [ref=e627]
+                - list [ref=e629]:
+                  - listitem [ref=e630]: Current, forecast and historical air pollution data
+                  - listitem [ref=e631]: Forecast for 4 days ahead with 1-hour step
+                  - listitem [ref=e632]: Air Pollution API includes both Air Quality Index and indices for CO, NO, NO2, O3, SO2, NH3, PM2.5, PM10
+                  - listitem [ref=e633]: Included in both free and paid subscriptions
+              - list [ref=e634]:
+                - listitem [ref=e635]:
+                  - link "Subscribe" [ref=e636] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e637]:
+                  - link "API Docs" [ref=e638] [cursor=pointer]:
+                    - /url: /api/air-pollution
+          - listitem [ref=e639]:
+            - generic [ref=e640]:
+              - generic [ref=e641]:
+                - paragraph [ref=e645]: Environmental
+                - img "map icon" [ref=e646]
+              - generic [ref=e647]:
+                - heading "Fire Weather Index Maps" [level=3] [ref=e648]
+                - list [ref=e650]:
+                  - listitem [ref=e651]: Current and 5 days daily forecast fire weather index maps
+                  - listitem [ref=e652]: Use as layers in Direct Tiles, OpenLayers, Leaflet, and Google Maps
+              - list [ref=e653]:
+                - listitem [ref=e654]:
+                  - link "Get a quote" [ref=e655] [cursor=pointer]:
+                    - /url: info@openweathermap.org
+                - listitem [ref=e656]:
+                  - link "API Docs" [ref=e657] [cursor=pointer]:
+                    - /url: /api/fire-index-map
+          - listitem [ref=e658]:
+            - generic [ref=e659]:
+              - generic [ref=e660]:
+                - paragraph [ref=e664]: Environmental
+                - img "thunderstorm with rain icon" [ref=e665]
+              - generic [ref=e666]:
+                - heading "Fire Weather Index API" [level=3] [ref=e667]
+                - list [ref=e669]:
+                  - listitem [ref=e670]: Current fire index and daily forecast for 5 days are available for any geo location (lat/lon)
+                  - listitem [ref=e671]: JSON format
+                  - listitem [ref=e672]:
+                    - text: Please
+                    - link "contact us" [ref=e673] [cursor=pointer]:
+                      - /url: mailto:info@openweathermap.org
+                    - text: to get a quote
+              - list [ref=e674]:
+                - listitem [ref=e675]:
+                  - link "Get a quote" [ref=e676] [cursor=pointer]:
+                    - /url: info@openweathermap.org
+                - listitem [ref=e677]:
+                  - link "API Docs" [ref=e678] [cursor=pointer]:
+                    - /url: /api/fire-index-api
+          - listitem [ref=e679]:
+            - generic [ref=e680]:
+              - generic [ref=e681]:
+                - paragraph [ref=e685]: Tools & Integrations
+                - img "thunderstorm with rain icon" [ref=e686]
+              - generic [ref=e687]:
+                - heading "Geocoding API" [level=3] [ref=e688]
+                - list [ref=e690]:
+                  - listitem [ref=e691]: Geocoding API supports both the direct and reverse methods, working at the level of city names, areas and districts, countries and states
+                  - listitem [ref=e692]: You can cap how many locations with the same name or the nearby geographic coordinates will be seen in the API response
+                  - listitem [ref=e693]: Included in both free and paid subscriptions
+              - list [ref=e694]:
+                - listitem [ref=e695]:
+                  - link "Subscribe" [ref=e696] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e697]:
+                  - link "API Docs" [ref=e698] [cursor=pointer]:
+                    - /url: /api/geocoding-api
+          - listitem [ref=e699]:
+            - generic [ref=e700]:
+              - generic [ref=e701]:
+                - paragraph [ref=e705]: Tools & Integrations
+                - img "thunderstorm with rain icon" [ref=e706]
+              - generic [ref=e707]:
+                - heading "Weather Stations" [level=3] [ref=e708]
+                - list [ref=e710]:
+                  - listitem [ref=e711]: API for managing your personal weather stations
+                  - listitem [ref=e712]: Connect your stations and transfer the measurements
+                  - listitem [ref=e713]: Receive the aggregated measurements from the station
+                  - listitem [ref=e714]: Included in both free and paid subscriptions
+              - list [ref=e715]:
+                - listitem [ref=e716]:
+                  - link "Subscribe" [ref=e717] [cursor=pointer]:
+                    - /url: /price
+                - listitem [ref=e718]:
+                  - link "API Docs" [ref=e719] [cursor=pointer]:
+                    - /url: /stations
+      - generic [ref=e722]:
+        - heading "How to get started" [level=1] [ref=e724]
+        - list [ref=e727]:
+          - listitem [ref=e728]:
+            - generic [ref=e729]:
+              - generic [ref=e730]:
+                - img "01 icon" [ref=e732]
+                - generic [ref=e733]:
+                  - paragraph [ref=e734]: Sign Up & Get Your API Key
+                  - paragraph [ref=e737]: Create an account on OpenWeather to access your dashboard and generate your unique API key. This key is required for all API requests.
+              - link [ref=e739] [cursor=pointer]:
+                - /url: https://home.openweathermap.org/users/sign_up
+                - text: Create account
+                - img "icon" [ref=e741]
+          - listitem [ref=e742]:
+            - generic [ref=e743]:
+              - generic [ref=e744]:
+                - img "02 icon" [ref=e746]
+                - generic [ref=e747]:
+                  - paragraph [ref=e748]: Choose the Right API
+                  - paragraph [ref=e751]: OpenWeather offers a variety of APIs to fit different needs. Get full technical documentation, response examples, and integration tips.
+              - link [ref=e753] [cursor=pointer]:
+                - /url: /api
+                - text: See all APIs
+                - img "icon" [ref=e755]
+          - listitem [ref=e756]:
+            - generic [ref=e757]:
+              - generic [ref=e758]:
+                - img "03 icon" [ref=e760]
+                - generic [ref=e761]:
+                  - paragraph [ref=e762]: FAQ
+                  - paragraph [ref=e765]: Find quick answers to common questions about APIs, data coverage, limits, and integration.
+              - link [ref=e767] [cursor=pointer]:
+                - /url: /faq
+                - text: Browse FAQs
+                - img "icon" [ref=e769]
+      - generic [ref=e772]:
+        - heading "For Agents and Bots" [level=1] [ref=e774]
+        - list [ref=e777]:
+          - listitem [ref=e778]:
+            - generic [ref=e779]:
+              - paragraph [ref=e781]: Agents frendly
+              - paragraph [ref=e784]:
+                - text: Putting the data behind an AI agent instead?
+                - strong [ref=e786]: OpenWeather for agents · powered by The Bot Forum
+                - text: — the agent signs itself up with one request and pays per call from a balance you fund; the lane is operated and sold by Extreme Electronics Ltd, trading as The Bot Forum, under common ownership with OpenWeather.
+                - link "openweathermap.org/agents" [ref=e787] [cursor=pointer]:
+                  - /url: https://openweathermap.org/agents/
+          - listitem [ref=e788]:
+            - generic [ref=e789]:
+              - paragraph [ref=e791]: MCP Server
+              - paragraph [ref=e794]:
+                - text: "Over MCP: { \"url\": \"https://mcp.openweathermap.org/mcp\" } — six tools, no key needed to look; the description at"
+                - link "https://mcp.openweathermap.org/" [ref=e795] [cursor=pointer]:
+                  - /url: https://mcp.openweathermap.org/
+                - text: .
+  - contentinfo [ref=e796]:
+    - generic [ref=e797]:
+      - generic [ref=e798]:
+        - generic [ref=e799]:
+          - heading "Build smarter, plan better with the world’s most flexible weather data platform" [level=1] [ref=e800]:
+            - generic [ref=e801]: Build smarter, plan better with the
+            - generic [ref=e802]: world’s most flexible
+            - generic [ref=e803]: weather data platform
+          - paragraph [ref=e805]: Build smarter, plan better with the world’s most flexible weather data platform
+        - list [ref=e806]:
+          - listitem [ref=e807]:
+            - link "Get API Key" [ref=e808] [cursor=pointer]:
+              - /url: https://home.openweathermap.org/users/sign_in
+          - listitem [ref=e809]:
+            - link "Explore API Docs" [ref=e810] [cursor=pointer]:
+              - /url: /api/one-call-4
+      - generic [ref=e811]:
+        - generic [ref=e813]:
+          - paragraph [ref=e814]: Products
+          - list [ref=e816]:
+            - listitem [ref=e817]:
+              - link "Current and Forecast APIs" [ref=e818] [cursor=pointer]:
+                - /url: /api#current
+            - listitem [ref=e819]:
+              - link "Historical Weather Data" [ref=e820] [cursor=pointer]:
+                - /url: /api?filter=historical#collections
+            - listitem [ref=e821]:
+              - link "Weather Maps" [ref=e822] [cursor=pointer]:
+                - /url: /api#maps
+            - listitem [ref=e823]:
+              - link "Weather Dashboard" [ref=e824] [cursor=pointer]:
+                - /url: https://dashboard.openweather.co.uk/
+            - listitem [ref=e825]:
+              - link "Widgets" [ref=e826] [cursor=pointer]:
+                - /url: /widgets-constructor
+        - generic [ref=e828]:
+          - paragraph [ref=e829]: Subscription
+          - list [ref=e831]:
+            - listitem [ref=e832]:
+              - link "How to start" [ref=e833] [cursor=pointer]:
+                - /url: /appid
+            - listitem [ref=e834]:
+              - link "Pricing" [ref=e835] [cursor=pointer]:
+                - /url: /price
+            - listitem [ref=e836]:
+              - link "Subscribe for free" [ref=e837] [cursor=pointer]:
+                - /url: https://home.openweathermap.org/
+            - listitem [ref=e838]:
+              - link "FAQ" [ref=e839] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e840]:
+              - link "For Agents and Bots" [ref=e841] [cursor=pointer]:
+                - /url: https://openweathermap.org/agents/
+        - generic [ref=e843]:
+          - paragraph [ref=e844]: Technologies
+          - list [ref=e846]:
+            - listitem [ref=e847]:
+              - link "Our technology" [ref=e848] [cursor=pointer]:
+                - /url: /technology
+            - listitem [ref=e849]:
+              - link "Accuracy and quality of weather data" [ref=e850] [cursor=pointer]:
+                - /url: https://openweather.co.uk/accuracy-and-quality
+            - listitem [ref=e851]:
+              - link "Connect your weather station" [ref=e852] [cursor=pointer]:
+                - /url: /stations
+            - listitem [ref=e853]:
+              - link "llms.txt" [ref=e854] [cursor=pointer]:
+                - /url: https://openweathermap.org/llms.txt
+        - generic [ref=e856]:
+          - link "Offices" [ref=e857] [cursor=pointer]:
+            - /url: /about/our-offices
+          - list [ref=e859]:
+            - listitem [ref=e860]:
+              - paragraph [ref=e861]: London, UK
+              - paragraph [ref=e862]: "The Gherkin, 30 St Mary`s Axe, The City Of London, London EC3A 8BF, United Kingdom"
+            - listitem [ref=e863]:
+              - paragraph [ref=e864]: Paphos, Cyprus
+              - paragraph [ref=e865]: Gladstonos 12-14, Office 1 Hugge Space, Paphos 8046, Cyprus
+            - listitem [ref=e866]:
+              - paragraph [ref=e867]: Delaware, US
+              - paragraph [ref=e868]: 16192 Coastal Highway, Lewes, Delaware 19958, United States
+      - generic [ref=e869]:
+        - generic [ref=e870]:
+          - list [ref=e871]:
+            - listitem [ref=e872]:
+              - link [ref=e873] [cursor=pointer]:
+                - /url: https://apps.apple.com/gb/app/openweather/id1535923697
+                - img "App Store" [ref=e874]
+            - listitem [ref=e875]:
+              - link [ref=e876] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=uk.co.openweather
+                - img "Google Play" [ref=e877]
+          - list [ref=e878]:
+            - listitem [ref=e879]:
+              - link [ref=e880] [cursor=pointer]:
+                - /url: https://www.instagram.com/openweathermap?igsh=OTRsOWs1aDh2bmNu
+                - img "Instagram icon" [ref=e881]
+            - listitem [ref=e882]:
+              - link [ref=e883] [cursor=pointer]:
+                - /url: https://www.facebook.com/groups/270748973021342
+                - img "Facebook icon" [ref=e884]
+            - listitem [ref=e885]:
+              - link [ref=e886] [cursor=pointer]:
+                - /url: https://t.me/openweathermap
+                - img "Telegram icon" [ref=e887]
+            - listitem [ref=e888]:
+              - link [ref=e889] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/9816754
+                - img "LinkedIn icon" [ref=e890]
+            - listitem [ref=e891]:
+              - link [ref=e892] [cursor=pointer]:
+                - /url: https://medium.com/@openweathermap
+                - img "Medium icon" [ref=e893]
+            - listitem [ref=e894]:
+              - link [ref=e895] [cursor=pointer]:
+                - /url: https://github.com/openweathermap
+                - img "GitHub icon" [ref=e896]
+            - listitem [ref=e897]:
+              - link [ref=e898] [cursor=pointer]:
+                - /url: https://discord.com/invite/YyPZCXb4Jq
+                - img "Discord icon" [ref=e899]
+          - list [ref=e900]:
+            - listitem [ref=e901]:
+              - img "ISO 9001" [ref=e902]
+            - listitem [ref=e903]:
+              - img "ISO 27001" [ref=e904]
+            - listitem [ref=e905]:
+              - img "CNB Business Logo" [ref=e906]
+            - listitem [ref=e907]:
+              - img "RMets Logo" [ref=e908]
+            - listitem [ref=e909]:
+              - img "ESPO logo" [ref=e910]
+            - listitem [ref=e911]:
+              - img "LCRIG logo" [ref=e912]
+        - generic [ref=e913]:
+          - paragraph [ref=e914]: Company
+          - paragraph [ref=e916]:
+            - strong [ref=e918]: OpenWeather
+            - text: is a London-based weather intelligence company serving enterprises, developers, businesses, and researchers worldwide. Through its developer business, the company provides global weather data and forecasting services via fast, reliable APIs, delivering historical, current, and forecast weather data for any location worldwide. Combining advanced meteorology, AI-enhanced forecasting models, and scalable data infrastructure, OpenWeather helps customers integrate weather intelligence into applications, services, and operational workflows.
+      - generic [ref=e919]:
+        - generic [ref=e920]:
+          - text: Supplier of Achilles UVDB community
+          - generic [ref=e921]: © 2012 - 2026 OpenWeather ® All rights reserved
+        - list [ref=e922]:
+          - listitem [ref=e923]:
+            - link "Terms & conditions of sale" [ref=e924] [cursor=pointer]:
+              - /url: https://openweather.co.uk/api/files/file/OpenWeather_T%26C_of_sale.pdf
+          - listitem [ref=e925]:
+            - link "Website terms & conditions" [ref=e926] [cursor=pointer]:
+              - /url: https://openweather.co.uk/api/files/file/Openweather_website_terms_and_conditions_of_use.pdf
+          - listitem [ref=e927]:
+            - link "Privacy policy" [ref=e928] [cursor=pointer]:
+              - /url: https://openweather.co.uk/privacy-policy
+  - button "Open chat" [ref=e929] [cursor=pointer]
+  - generic [ref=e930]:
+    - paragraph [ref=e932]: We use cookies to personalize content and to analyze our traffic. Please decide if you are willing to accept cookies from our website.
+    - generic [ref=e933]:
+      - link "Advanced Settings" [ref=e935] [cursor=pointer]:
+        - /url: /cookies
+      - generic [ref=e936]:
+        - button "Decline" [ref=e937]
+        - button "Accept" [ref=e938]
+  - alert [ref=e939]
